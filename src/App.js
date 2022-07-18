@@ -1,23 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import   Greet   from './components/Greet'
+// import { Hello, Message } from './components/Greet'
+import ClassComponent from './components/ClassComponent';
+import Message from './components/Message';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Greet name= "JAVA" langType="high level">
+      <p>Java is best lang.</p>
+    {/* </Greet> */}
+    {/* <Greet name= "C" langType="low level">
+      <button>Click here to learn C</button>
+    </Greet> */}
+    {/* <Greet name= "C++"/> */}
+    {/* <ClassComponent name="Laxmi" gender="Female"></ClassComponent>
+    <ClassComponent name="abc" gender="Female"></ClassComponent>
+    <ClassComponent name="xyz" gender="male"></ClassComponent> */}
+    {/* <Message/> */}
+    {/* <Counter/> */}
+    {/* <FunctionClick/> */}
+    {/* <ClassClick/> */}
+    {/* <EventBind/> */}
+    <ParentComponent/>
     </div>
   );
 }
